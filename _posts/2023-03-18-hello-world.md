@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Blog Update 3/18/2024"
 ---
 
-# Welcome
+# Blog Update 3/18/2024 - Post
 
-**Hello world**, this is my first Jekyll blog post.
+I'm putting this blog site up alongside my GitHub to Post about
+- Reverse Engineering,
+- Cybersecurity [Offensive/Defensive]
+- Vulnerability Analysis
+- Vulnerability Scanning and Exploitation
 
-I hope you like it!
+And overall Reverse Engineering Related Updates Documents and Posts...
