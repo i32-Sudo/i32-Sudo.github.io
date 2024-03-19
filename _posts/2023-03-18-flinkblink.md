@@ -3,7 +3,6 @@ layout: post
 title:  "_PEB / _TEB Exploitation for Module Link Manipulation using internally injected DLL (C++)"
 ---
 
-# _PEB / _TEB Exploitation for Module Link Manipulation using internally injected DLL (C++)
 ###
 I'll be showing some examples of exploitation of the (*Third*-**PE**-*Layer*) **_PEB** and **_TEB** (*Process Environment Block*) and (*Thread Environment Block*) created upon the (*Main-Thread*) Execution and Creation...  I'll also be explaining what the **_TEB** / **_PEB** Are and how they are used in a **PE**-*Executable* and how they may be useful to exploit and build as a structure in your main injected **DLL's**.
 
