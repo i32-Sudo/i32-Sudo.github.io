@@ -3,8 +3,6 @@ layout: post
 title:  "Blog Update 3/18/2024"
 ---
 
-# Blog Update 3/18/2024 - Post
-
 I'm putting this blog site up alongside my GitHub to Post about
 - Reverse Engineering,
 - Cybersecurity [Offensive/Defensive]
