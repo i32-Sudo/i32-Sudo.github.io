@@ -33,7 +33,7 @@ auto newaddr = 00007FFF8797D540 /* Random Address in the Program */
 /* The size of this thread will be an integer of 1000 however this can be changed... */
 VirtualProtect((void*)newaddr, 1000, PAGE_EXECUTE_READWRITE, NULL);
 ```
-Now that we have allocated a space for our "FakeRegion" Where the address will be returned.. Forr newaddr you could totally use a random address in Memory selected manually, Or use a function to get the `EIP` of Another thread in memory or you could use an algorithm to get a random address in memory, However all your threads HAVE to be above `7FFFFFFF...` in Memory, If not they will be flagged as a suspicious thread...
+Now that we have allocated a space for our "FakeRegion" Where the address will be returned.. Forr newaddr you could totally use a random address in Memory selected manually, Or use a function to get the `EIP` of Another thread in memory or you could use an algorithm to get a random address in memory, However all your threads HAVE to be above `7FFFFFFFFF...` in Memory, If not they will be flagged as a suspicious thread...
 
 Next we will get the context and also suspend the thread at the same time (ON THE CPU REGISTER)
 ```cpp
